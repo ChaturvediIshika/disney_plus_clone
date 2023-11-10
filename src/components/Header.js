@@ -4,34 +4,34 @@ import styled from 'styled-components'
 const Header = () => {
   return (
     <Nav>
-      <Logo src="/images/logo.svg"/>
+      <Logo src="/images/logo.svg" alt=""/>
       <NavMenu>
         <a>
-          <img src="/images/home-icon.svg"/>
+          <img src="/images/home-icon.svg" alt=""/>
           <span>HOME</span>
         </a>
         <a>
-          <img src="/images/search-icon.svg"/>
+          <img src="/images/search-icon.svg" alt=""/>
           <span>SEARCH</span>
         </a>
         <a>
-          <img src="/images/watchlist-icon.svg"/>
+          <img src="/images/watchlist-icon.svg" alt=""/>
           <span>WATCHLIST</span>
         </a>
         <a>
-          <img src="/images/original-icon.svg"/>
+          <img src="/images/original-icon.svg" alt=""/>
           <span>ORIGINALS</span>
         </a>
         <a>
-          <img src="/images/movie-icon.svg"/>
+          <img src="/images/movie-icon.svg" alt=""/>
           <span>MOVIES</span>
         </a>
         <a>
-          <img src="/images/series-icon.svg"/>
+          <img src="/images/series-icon.svg" alt=""/>
           <span>SERIES</span>
         </a>
       </NavMenu>
-      <UserImg src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg"/>
+      <UserImg src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?cs=srgb&dl=pexels-anjana-c-674010.jpg&fm=jpg" alt=""/>
     </Nav>
   )
 }
@@ -44,6 +44,7 @@ const Nav=styled.nav`
     display:flex;
     align-items:center;
     padding:0 36px;
+  overflow-x:hidden;
 `
 const Logo=styled.img`
     width:80px;
