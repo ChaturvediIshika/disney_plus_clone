@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Header = () => {
@@ -6,7 +7,7 @@ const Header = () => {
     <Nav>
       <Logo src="/images/logo.svg" alt=""/>
       <NavMenu>
-        <a>
+        <a></a>
           <img src="/images/home-icon.svg" alt=""/>
           <span>HOME</span>
         </a>
